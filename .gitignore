@@ -1,0 +1,33 @@
+# Environment variables — never commit this
+.env
+
+# Vercel
+.vercel/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+.ENV/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Byte-compiled
+*.egg-info/
+dist/
+build/
