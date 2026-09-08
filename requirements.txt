@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+flask
+google-generativeai
+python-dotenv
+gspread
+oauth2client
