@@ -1,2 +1,15 @@
+[project]
+name = "automation-push"
+version = "0.1.0"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "flask",
+    "google-generativeai",
+    "python-dotenv",
+    "gspread",
+    "oauth2client"
+]
+
 [tool.vercel]
-entrypoint = "api/generate_push.py"
+entrypoint = "api.generate_push:handler"
